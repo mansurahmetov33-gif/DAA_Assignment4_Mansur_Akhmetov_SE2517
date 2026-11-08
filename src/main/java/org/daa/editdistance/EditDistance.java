@@ -1,4 +1,9 @@
+
 package org.daa.editdistance;
 
-public class EditDistance {
+public interface EditDistance {
+
+    int distance(String a, String b);
+
 }
+
